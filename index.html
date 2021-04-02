@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="codigo.js"></script>
+    <title>Mata Mosquito</title>
+</head>
+<body onresize="ajusteTamanho()">
+
+    <div class="painel">
+        <div class="vidas">
+            <img src="imagens/coracao_vazio.png">
+            <img src="imagens/coracao_cheio.png">
+            <img src="imagens/coracao_cheio.png">
+        </div>
+
+        <div class="cronometro">
+            Tempo restante: 
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+  <script>
+      
+      setInterval(function() {
+        posicaorandomica()
+      }, 1000)
+  </script>
+</body>
+</html>
