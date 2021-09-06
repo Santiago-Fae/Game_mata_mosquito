@@ -1,3 +1,3 @@
 # Game_mata_mosquito
- Um jogo simples feito em javascript
-- Site desenvolvido no Curso de desenvolvimento Web - UDEMY
+A game of killing mosquitoes with levels made in javascript.
+- Site developed in the Web Development Course - UDEMY
